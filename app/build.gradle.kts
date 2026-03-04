@@ -62,6 +62,7 @@ dependencies {
     implementation("com.google.android.material:material:1.13.0")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0")
 
     // 核心库（必需）
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
