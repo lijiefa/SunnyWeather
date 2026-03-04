@@ -13,7 +13,6 @@
         android:src="@drawable/bg_place"
         />
     <FrameLayout
-
         android:id="@+id/action_bar_layout"
         android:layout_width="match_parent"
         android:layout_height="69dp"

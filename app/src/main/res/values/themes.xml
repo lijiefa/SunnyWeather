@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.SunnyWeather" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+    <style name="Theme.SunnyWeather" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 主色调 -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- 启用 Edge-to-Edge -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <!-- 状态栏图标颜色：true=深色图标，false=白色图标 -->
+        <item name="android:windowLightStatusBar">false</item>
     </style>
+
 </resources>

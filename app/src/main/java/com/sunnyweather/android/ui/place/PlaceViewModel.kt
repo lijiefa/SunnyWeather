@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.switchMap
 import com.sunnyweather.android.logic.Repository
 import com.sunnyweather.android.logic.model.Place
+import retrofit2.Retrofit
 
 class PlaceViewModel: ViewModel() {
     private val searchLiveData= MutableLiveData<String>()
@@ -19,4 +20,11 @@ class PlaceViewModel: ViewModel() {
     fun searchPlaces(query:String){
         searchLiveData.value=query
     }
+
+    fun savePlace(place: Place)= Repository.savePlace(place)
+    fun getSavePlace()= Repository.getSavePlace()
+    fun isPlaceSaved()= Repository.isPlaceSaved()
+
+
+
 }

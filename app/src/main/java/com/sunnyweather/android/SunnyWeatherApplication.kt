@@ -9,7 +9,7 @@ class SunnyWeatherApplication: Application() {
         @SuppressLint
         lateinit var context: Context
 
-        const val TOKEN="TAkhjf8d1nlSlspN"
+        const val TOKEN="i9jkYmV3LF7hOcDU"
     }
 
     override fun onCreate() {
